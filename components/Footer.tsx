@@ -13,6 +13,7 @@ export default function Footer() {
         <div className="flex gap-4 text-muted">
           <a href={person.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="hover:text-brand-lilac"><Github className="h-5 w-5" /></a>
           <a href={person.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:text-brand-lilac"><Linkedin className="h-5 w-5" /></a>
+          <a href={person.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="hover:text-brand-lilac"><Instagram className="h-5 w-5" /></a>
         </div>
       </div>
       <p className="mt-8 text-center text-xs text-muted/70">© <span suppressHydrationWarning>{new Date().getFullYear()}</span> VENTURA DEV</p>
