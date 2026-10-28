@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Copy, Check, Github, Linkedin, Mail } from "lucide-react";
+import { Copy, Check, Github, Linkedin, Mail, Instagram } from "lucide-react";
 import Reveal from "./Reveal";
 import { person } from "@/data/site";
 const btn = "inline-flex items-center gap-2 rounded-full px-6 py-3 font-medium transition hover:-translate-y-0.5";
