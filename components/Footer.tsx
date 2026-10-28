@@ -1,5 +1,5 @@
 "use client";
-import { Github, Linkedin } from "lucide-react";
+import { Github, Linkedin, Instagram } from "lucide-react";
 import { nav, person } from "@/data/site";
 export default function Footer() {
   return (
