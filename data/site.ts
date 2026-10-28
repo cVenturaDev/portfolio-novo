@@ -3,7 +3,7 @@ export const person = {
   brand: "VENTURA",
   email: "otavioboomb@gmail.com" , // TODO: e-mail real
   github: "https://github.com/cVenturaDev", // TODO
-  linkedin: "https://www.linkedin.com/in/otavioventuraestavam/", 
+  linkedin: "https://www.linkedin.com/in/otavioventuraestavam/", // TODO
   instagram: "https://www.instagram.com/_vntura.szn/", // TODO
 };
 export const nav = [
