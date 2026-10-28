@@ -21,6 +21,7 @@ export default function Contact() {
           <button onClick={copy} className={`${btn} border border-brand/40 text-brand-lilac hover:bg-brand/10`}>{copied ? <Check className="h-5 w-5" /> : <Copy className="h-5 w-5" />}{copied ? "Copiado!" : "Copiar e-mail"}</button>
           <a href={person.github} target="_blank" rel="noopener noreferrer" className={`${btn} border border-brand/40 text-brand-lilac hover:bg-brand/10`}><Github className="h-5 w-5" />GitHub</a>
           <a href={person.linkedin} target="_blank" rel="noopener noreferrer" className={`${btn} border border-brand/40 text-brand-lilac hover:bg-brand/10`}><Linkedin className="h-5 w-5" />LinkedIn</a>
+          <a href={person.instagram} target="_blank" rel="noopener noreferrer" className={`${btn} border border-brand/40 text-brand-lilac hover:bg-brand/10`}><Instagram className="h-5 w-5" />Instagram</a>
         </div>
         <p className="sr-only" aria-live="polite">{copied ? "E-mail copiado" : ""}</p>
       </Reveal>
