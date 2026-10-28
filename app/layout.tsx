@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 export const metadata: Metadata = {
-  title: "VENTURA DEV — Portfólio de desenvolvimento web",
+  title: "VenturaDev Portfólio",
   description: "Portfólio de Ventura, estudante de Análise e Desenvolvimento de Sistemas. Projetos, tecnologias e contato.",
   openGraph: { title: "VENTURA DEV", description: "Transformando ideias em experiências digitais.", type: "website", locale: "pt_BR" },
 };
